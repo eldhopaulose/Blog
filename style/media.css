@@ -21,15 +21,25 @@
         text-align: center;
     }
 }
-
-@media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
-    body {
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+    #container{
         display: none;
     }
 }
-
-@media only screen and (min-device-width: 736px) and (max-device-width: 736px) and (orientation: landscape) {
-    body {
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+    footer{
         display: none;
     }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+       html {
+        background-image: url(../images/unnamed.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: gainsboro;
+        margin: auto auto auto auto;
+    }
+  }
