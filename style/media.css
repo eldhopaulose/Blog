@@ -28,10 +28,8 @@
     }
 }
 
-@media only screen and (min-device-width: 736px)
-and (max-device-width: 736px) 
-and (orientation: landscape)  {
-    body{
+@media only screen and (min-device-width: 736px) and (max-device-width: 736px) and (orientation: landscape) {
+    body {
         display: none;
     }
 }
