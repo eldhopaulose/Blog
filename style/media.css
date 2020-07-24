@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+}
+    @media only screen and (min-width: 600px){
+        nav ul {
+            text-align: center;
+        }  
+    }
+@media only screen and (min-width: 768px) {
+    nav ul {
+        text-align: center;
+    }  
+}
+@media only screen and (min-width: 992px) {
+    nav ul {
+        text-align: center;
+    }  
+}
