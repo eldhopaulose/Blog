@@ -3,18 +3,35 @@
         text-align: center;
     }
 }
-    @media only screen and (min-width: 600px){
-        nav ul {
-            text-align: center;
-        }  
+
+@media only screen and (min-width: 600px) {
+    nav ul {
+        text-align: center;
     }
+}
+
 @media only screen and (min-width: 768px) {
     nav ul {
         text-align: center;
-    }  
+    }
 }
+
 @media only screen and (min-width: 992px) {
     nav ul {
         text-align: center;
-    }  
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 640px) and (orientation: landscape) {
+    body {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 736px)
+and (max-device-width: 736px) 
+and (orientation: landscape)  {
+    body{
+        display: none;
+    }
 }

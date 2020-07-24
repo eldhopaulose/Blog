@@ -59,11 +59,11 @@ nav {
 #para {
     font-family: 'Dancing Script', cursive;
     font-size: 24px;
-    animation-name: right;
-    animation-duration: 2s;
+    animation-name: opa;
+    animation-duration: 5s;
 }
 
-@keyframes right {
+@keyframes opa {
     from {
         opacity: 0;
     }
@@ -76,7 +76,7 @@ nav {
     color: #fafffb;
 }
 
-#index-bt {
+.index-bt {
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
     background-image: -moz-linear-gradient(top, #3498db, #2980b9);
@@ -94,7 +94,7 @@ nav {
     font-family: 'Raleway', sans-serif;
 }
 
-#index-bt:hover {
+.index-bt:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
