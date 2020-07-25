@@ -104,9 +104,28 @@ nav {
     text-decoration: none;
 }
 
-.ft-1 {
-    color: white;
+#ft-1 {
+    color: #222222;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #e9e8e6;
     min-height: 14vh;
+    padding-top: 20px;
+    text-align: center;
+}
+#ft-1 .ic {
+    font-size: 30px;
+    text-decoration: none;
+}
+#insta{
+    color: #C13584;
+    margin: 0 10px 0 10px;
+}
+#insta:hover{
+    color: #E1306C;
+}
+#twit{
+    color: #1DA1F2;
+}
+#twit:hover{
+    color: #5851DB;
 }
