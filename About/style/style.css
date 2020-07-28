@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#bg-color {
+  background-color: #212529;
+}
+
+#nav-2 .center-1 {
+  text-align: center;
+}
+
+#about {
+  padding: 9% 14%;
+  color: #f7f9fc;
+}
+
+#about p {
+  font-size: 17px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#about h2 {
+  font-family: 'Lora', serif;
+}
+
+#abou-main .pr-img {
+  right: 52px;
+}
+
+#abou-main .pr-img img {
+  width: 320px;
+  height: 55vh;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

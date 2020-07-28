@@ -1,0 +1,16 @@
+@media screen and (min-width: 320px) and (max-width: 812px) {
+  #about {
+    padding: 5% 10%;
+    border: 4px solid green;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #abou-main .pr-img {
+    right: 45px;
+  }
+  #abou-main .pr-img img {
+    width: 320px;
+    height: 55vh;
+  }
+}
+/*# sourceMappingURL=media.css.map */
