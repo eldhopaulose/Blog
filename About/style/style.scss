@@ -21,10 +21,10 @@ body {
     color: #f7f9fc;
     p {
         font-size: 17px;
-        font-family: 'PT Sans', sans-serif;
+        font-family: "PT Sans", sans-serif;
     }
     h2 {
-        font-family: 'Lora', serif;
+        font-family: "Lora", serif;
     }
 }
 
@@ -35,6 +35,14 @@ body {
             width: 320px;
             height: 55vh;
             border-radius: 50%;
+        }
+    }
+}
+
+#list {
+    ul {
+        li {
+            list-style-type: none;
         }
     }
 }
