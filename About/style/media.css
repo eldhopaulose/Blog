@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 812px) {
+@media screen and (min-width: 320px) and (max-width: 640px) {
   #about {
     padding: 5% 10%;
     border: 0;
@@ -8,8 +8,9 @@
   }
   #abou-main .pr-img img {
     border-radius: 0;
-    width: 21em;
+    width: 364px;
     height: auto;
+    margin-left: 5px;
   }
 }
 

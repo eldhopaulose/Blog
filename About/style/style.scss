@@ -33,7 +33,7 @@ body {
         right: 52px;
         img {
             width: 320px;
-            height: 55vh;
+            height: 320px;
             border-radius: 50%;
         }
     }
@@ -45,4 +45,8 @@ body {
             list-style-type: none;
         }
     }
+}
+
+.name-center {
+    text-align: center;
 }
