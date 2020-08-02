@@ -12,6 +12,18 @@
     height: auto;
     margin-left: 5px;
   }
+  #myProgress {
+    width: 92%;
+    background-color: #ddd;
+  }
+  #myProgress #myBar {
+    width: 10%;
+    height: 9px;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 812px) and (orientation: landscape) {

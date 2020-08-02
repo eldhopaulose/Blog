@@ -45,4 +45,18 @@ body {
 .name-center {
   text-align: center;
 }
+
+#myProgress {
+  width: 50%;
+  background-color: #ddd;
+}
+
+#myProgress #myBar {
+  width: 10%;
+  height: 9px;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
