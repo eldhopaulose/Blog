@@ -21,7 +21,9 @@ if ("serviceWorker" in navigator) {
 } else {
     alert("Service workers are not supported.");
 }
-navigator.serviceWorker.register('sw.js');
+
+
+
 
 function showNotification() {
     Notification.requestPermission(function(result) {
