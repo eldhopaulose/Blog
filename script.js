@@ -63,6 +63,9 @@ self.addEventListener('beforeinstallprompt', event => {
     promptEvent = event;
     $("#installbuttin").addClass("d-block");
     $("#installbuttin").removeClass("d-none");
+    if (confirm("Do you want to install this app?")) {
+        promptEvent.prompt()
+    }
     console.log("ok")
 });
 
