@@ -66,6 +66,12 @@ self.addEventListener('beforeinstallprompt', event => {
     console.log("ok")
 });
 
+self.addEventListener('appinstalled', (evt) => {
+    // Log install to analytics
+    $("#installbuttin").addClass("d-none");
+    $("#installbuttin").removeClass("d-block");
+});
+
 // if (promptEvent) {
 //     $("installbuttin").removeClass("d-none");
 //     $("installbuttin").addClass("d-block");
