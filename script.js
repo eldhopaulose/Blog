@@ -74,6 +74,10 @@ self.addEventListener('beforeinstallprompt', event => {
 //     $("installbuttin").addClass("d-none");
 // }
 
-$("#installbuttin").click(function() {
-    promptEvent.prompt();
+$(document).ready(function() {
+    console.log('ok');
+    $("#installbuttin").click(function() {
+        console.log('ok');
+        promptEvent.prompt();
+    });
 });
