@@ -56,3 +56,24 @@ window.onload = function() {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #ffffff}";
     document.body.appendChild(css);
 };
+
+
+let promptEvent = undefined;
+self.addEventListener('beforeinstallprompt', event => {
+    promptEvent = event;
+    $("#installbuttin").addClass("d-block");
+    $("#installbuttin").removeClass("d-none");
+    console.log("ok")
+});
+
+// if (promptEvent) {
+//     $("installbuttin").removeClass("d-none");
+//     $("installbuttin").addClass("d-block");
+// } else {
+//     $("installbuttin").removeClass("d-block");
+//     $("installbuttin").addClass("d-none");
+// }
+
+$("#installbuttin").click(function() {
+    promptEvent.prompt();
+});
