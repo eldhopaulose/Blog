@@ -1,6 +1,6 @@
 {
-    "name": "Blog",
-    "short_name": "Blog-1",
+    "name": "BLOG",
+    "short_name": "Blog",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#212529",
